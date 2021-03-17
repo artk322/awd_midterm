@@ -1,0 +1,213 @@
+#sidebar ul li a i.icon {
+  margin-right: 16px;
+}
+#sidebar.active ul li a i.icon {
+  margin-right: 0px !important;
+}
+i.logo {
+  height: 18px;
+  width: 179px;
+  background-image: url('../icons/logo.svg');
+}
+i.icon {
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+}
+i.category {
+  background-image: url('../icons/category.svg') !important;
+  height: 14px;
+}
+#sidebar ul li a:hover i.category {
+  background-image: url('../icons/category-hover.svg') !important;
+}
+
+i.hot {
+  width: 16px !important;
+  height: 16px !important;
+  background-image: url('../icons/hot.svg') !important;
+}
+i.hot-white {
+  width: 16px !important;
+  height: 16px !important;
+  background-image: url('../icons/hot-white.svg') !important;
+}
+i.icon.hot-black {
+  width: 16px;
+  height: 16px;
+  background-image: url('../icons/hot-black.svg') !important
+}
+#sidebar ul li a:hover i.hot, #sidebar.active ul li a.current i.hot {
+  width: 16px !important;
+  background-image: url('../icons/hot-hover.svg') !important;
+}
+
+i.holding {
+  background-image: url('../icons/holding-hover.svg') !important;
+  background-image: url('../icons/holding.svg') !important;
+  height: 22px !important;
+}
+#sidebar ul li a:hover i.holding, #sidebar.active ul li a.current i.holding {
+  background-image: url('../icons/holding-hover.svg') !important;
+  height: 22px !important;
+}
+
+i.icon.user {
+  background-image: url('../icons/user.svg') !important;
+}
+#sidebar ul li a:hover i.user, #sidebar.active ul li a.current i.user {
+  background-image: url('../icons/user-hover.svg') !important;
+}
+
+i.icon.search {
+  background-image: url('../icons/search.svg') !important;
+  width: 16px;
+  height: 16px;
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  right: 345px;
+}
+
+i.icon.location {
+  background-image: url('../icons/location.svg') !important;
+  height: 19px !important;
+}
+i.icon.center {
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='459px' height='459px' viewBox='0 0 459 459' style='enable-background:new 0 0 459 459;' xml:space='preserve'%3E%3Cg%3E%3Cg id='save'%3E%3Cpath d='M357,0H51C22.95,0,0,22.95,0,51v357c0,28.05,22.95,51,51,51h357c28.05,0,51-22.95,51-51V102L357,0z M229.5,408 c-43.35,0-76.5-33.15-76.5-76.5s33.15-76.5,76.5-76.5c43.35,0,76.5,33.15,76.5,76.5S272.85,408,229.5,408z M306,153H51V51h255V153 z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: 100%;
+  background-position: center;
+  margin-top: 4.6px;
+}
+i.icon.mail {
+  background-image: url('../icons/mail.svg') !important;
+  width: 16px !important;
+  height: 12px !important;
+}
+i.icon.phone {
+  background-image: url('../icons/phone.svg') !important;
+  width: 16px;
+  height: 16px;
+}
+i.icon.space {
+  width: 24px;
+  height: 23px !important;
+  background-image: url('../icons/space.svg') !important;
+}
+#sidebar ul li a i.icon.menu {
+  background-image: url('../icons/menu.svg');
+  transform: rotate(360deg);
+  transition: transform .3s;
+}
+#sidebar.active ul li a i.icon.menu {
+  transform: rotate(180deg);
+  transition: transform .3s;
+}
+#sidebar ul li a:hover i.icon.menu {
+  background-image: url('../icons/menu-hover.svg') !important;
+}
+
+i.chevron-right {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-right.svg') !important;
+}
+
+i.chevron-up {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-up.svg') !important;
+  transform: rotate(270deg);
+}
+
+i.icon.chevron-right-white {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-right-white.svg') !important;
+}
+
+a:hover i.icon.chevron-right, a:hover i.icon.chevron-right-white {
+  width: 7px !important;
+  height: 12px !important;
+  background-image: url('../icons/chevron-right-hover.svg') !important;
+}
+
+i.icon.arrow-up {
+  background-image: url('../icons/arrow-up.svg');
+  width: 10px;
+  height: 14px;
+}
+
+i.icon.arrow-left {
+  background-image: url('../icons/arrow-left.svg');
+  height: 10px;
+  width: 14px;
+}
+i.icon.arrow-right {
+  background-image: url('../icons/arrow-right.svg');
+  height: 10px;
+  width: 14px;
+}
+
+a:hover i.icon.arrow-up, i.current.icon.arrow-up {
+  background-image: url('../icons/arrow-up-hover.svg')
+}
+
+i.icon.arrow-down {
+  background-image: url('../icons/arrow-down.svg');
+  width: 10px;
+  height: 14px;
+}
+
+a:hover i.icon.arrow-down, i.current.icon.arrow-down {
+  background-image: url('../icons/arrow-down-hover.svg');
+}
+
+i.icon.control {
+  background-image: url('../icons/control.svg') !important;
+  height: 18px;
+  width: 18px;
+}
+
+.breadcrumb .right-button>a:hover i.icon.control {
+  background-image: url('../icons/control-hover.svg') !important;
+}
+
+i.icon.dots {
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.128 5.23212C10.128 5.82092 10.3328 6.32012 10.7424 6.72972C11.152 7.13932 11.6512 7.34412 12.24 7.34412C12.8033 7.34412 13.2961 7.13932 13.7185 6.72972C14.1409 6.32012 14.3521 5.82092 14.3521 5.23212C14.3521 4.64332 14.1409 4.14412 13.7185 3.73452C13.2961 3.32492 12.8033 3.12012 12.24 3.12012C11.6512 3.12012 11.152 3.32492 10.7424 3.73452C10.3328 4.14412 10.128 4.64332 10.128 5.23212ZM10.128 11.9521C10.128 12.5409 10.3328 13.0401 10.7424 13.4497C11.152 13.8593 11.6512 14.0641 12.24 14.0641C12.8033 14.0641 13.2961 13.8529 13.7185 13.4305C14.1409 13.0081 14.3521 12.5153 14.3521 11.9521C14.3521 11.3889 14.1409 10.8961 13.7185 10.4737C13.2961 10.0513 12.8033 9.84012 12.24 9.84012C11.6512 9.84012 11.152 10.0449 10.7424 10.4545C10.3328 10.8641 10.128 11.3633 10.128 11.9521ZM10.128 18.6721C10.128 19.2609 10.3328 19.7601 10.7424 20.1697C11.152 20.5793 11.6512 20.7841 12.24 20.7841C12.8033 20.7841 13.2961 20.5793 13.7185 20.1697C14.1409 19.7601 14.3521 19.2609 14.3521 18.6721C14.3521 18.0833 14.1409 17.5841 13.7185 17.1745C13.2961 16.7649 12.8033 16.5601 12.24 16.5601C11.6512 16.5601 11.152 16.7649 10.7424 17.1745C10.3328 17.5841 10.128 18.0833 10.128 18.6721Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.breadcrumb .right-button>a:hover i.icon.dots {
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.128 5.23212C10.128 5.82092 10.3328 6.32012 10.7424 6.72972C11.152 7.13932 11.6512 7.34412 12.24 7.34412C12.8033 7.34412 13.2961 7.13932 13.7185 6.72972C14.1409 6.32012 14.3521 5.82092 14.3521 5.23212C14.3521 4.64332 14.1409 4.14412 13.7185 3.73452C13.2961 3.32492 12.8033 3.12012 12.24 3.12012C11.6512 3.12012 11.152 3.32492 10.7424 3.73452C10.3328 4.14412 10.128 4.64332 10.128 5.23212ZM10.128 11.9521C10.128 12.5409 10.3328 13.0401 10.7424 13.4497C11.152 13.8593 11.6512 14.0641 12.24 14.0641C12.8033 14.0641 13.2961 13.8529 13.7185 13.4305C14.1409 13.0081 14.3521 12.5153 14.3521 11.9521C14.3521 11.3889 14.1409 10.8961 13.7185 10.4737C13.2961 10.0513 12.8033 9.84012 12.24 9.84012C11.6512 9.84012 11.152 10.0449 10.7424 10.4545C10.3328 10.8641 10.128 11.3633 10.128 11.9521ZM10.128 18.6721C10.128 19.2609 10.3328 19.7601 10.7424 20.1697C11.152 20.5793 11.6512 20.7841 12.24 20.7841C12.8033 20.7841 13.2961 20.5793 13.7185 20.1697C14.1409 19.7601 14.3521 19.2609 14.3521 18.6721C14.3521 18.0833 14.1409 17.5841 13.7185 17.1745C13.2961 16.7649 12.8033 16.5601 12.24 16.5601C11.6512 16.5601 11.152 16.7649 10.7424 17.1745C10.3328 17.5841 10.128 18.0833 10.128 18.6721Z' fill='%23F4DC00'/%3E%3C/svg%3E%0A");
+}
+
+i.icon.edit {
+  width: 18px;
+  height: 18px;
+  background-image: url('../icons/edit.svg') !important;
+}
+
+.breadcrumb .right-button>a:hover i.icon.edit {
+  background-image: url('../icons/edit-hover.svg') !important;
+}
+
+i.icon.nav-menu-white {
+  background-image: url('../icons/nav-menu-white.svg') !important;
+  width: 15px;
+  height: 15px;
+}
+
+i.icon.chevron-right-auction {
+  background-image: url('../icons/chevron-right-auction.svg') !important;
+  width: 6px;
+  height: 9px;
+}
+a:hover i.icon.chevron-right-auction {
+  background-image: url('../icons/chevron-right-auction-hover.svg') !important;
+  width: 6px;
+  height: 9px;
+}
